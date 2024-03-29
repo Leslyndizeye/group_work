@@ -6,7 +6,11 @@ Welcome to the TodoList Application! This simple web application allows you to m
 
 1. **Start the Application**: 
    - Clone the repository.
-   - Install dependencies with `npm install`.
+   - 
+   - first you should have node.js
+   
+   - Download install dependencies with `npm install`.
+   - to run the application we use `npm run dev`
    - Start the application with `npm start`.
    
 2. **Open the Application**:
