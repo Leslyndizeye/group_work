@@ -45,7 +45,7 @@ OR
 bash lesly.sh
 This script will automate Docker image building, container running, and other necessary configurations.
 
-## Access the Application: After Docker configuration, access the application at `http://localhost:8080` in your web browser.
+## Access the Application: After Docker configuration, access the application at `http://localhost:5174/` in your web browser.
 
 ## Note
 Use my codes at your own risk. Docker must be installed before running the configuration script.
