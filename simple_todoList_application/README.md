@@ -46,6 +46,7 @@ bash lesly.sh
 This script will automate Docker image building, container running, and other necessary configurations.
 
 ## Access the Application: After Docker configuration, access the application at `http://localhost:5174/` in your web browser.
+To access the docker hub `https://hub.docker.com/repository/docker/leslyndizeye/todolist_web_application/general`
 
 ## Note
 Use my codes at your own risk. Docker must be installed before running the configuration script.
