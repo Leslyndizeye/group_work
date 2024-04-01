@@ -29,3 +29,37 @@ I would greatly appreciate your feedback. If you encounter any issues or have su
 
 
 Replace `"http://localhost:5174/"` with the actual URL of your deployed application once it's hosted online. This README template provides instructions for users to start and use your application, as well as guidance on how to provide feedback or report issues.
+Clone the Repository:
+
+git clone https://github.com/lscblack/simple_tailwind_react_todList.git
+Navigate to the Project Directory:
+
+cd simple_tailwind_react_todList
+Run the Configuration Script: Ensure Docker is installed on your system, And modify the lesly.sh to match your needs, then execute the following command:
+
+For Linux User
+sudo ./lesly.sh
+For Windows PowerShell User
+./lesly.sh
+OR
+bash lesly.sh
+This script will automate Docker image building, container running, and other necessary configurations.
+
+##Access the Application: After Docker configuration, access the application at 'http://localhost:8080' in your web browser.
+
+##Note
+Use my codes at your own risk. Docker must be installed before running the configuration script.
+
+Configuration
+Your vite.config.js should resemble the following:
+
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+export default defineConfig({
+  plugins: [react()],
+  preview: {
+    host: true,
+    port: 8080
+  }
+});
