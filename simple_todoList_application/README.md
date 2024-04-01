@@ -31,7 +31,7 @@ I would greatly appreciate your feedback. If you encounter any issues or have su
 Replace `"http://localhost:5174/"` with the actual URL of your deployed application once it's hosted online. This README template provides instructions for users to start and use your application, as well as guidance on how to provide feedback or report issues.
 Clone the Repository:
 
-git clone https://github.com/lscblack/simple_tailwind_react_todList.git
+git clone https://github.com/Leslyndizeye/todolist_web_application
 Navigate to the Project Directory:
 
 cd simple_tailwind_react_todList
